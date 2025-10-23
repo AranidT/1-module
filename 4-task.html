@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    </head>
+    <body>
+        <!--создается форма, внутри label для обозначения текстовых значении,
+        input для ввода данных, select для выборки, button кнопка-->
+        <form action="/submit" method="post">
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" required>
+
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="password">Password: </label>
+            <input type="password" name="password" id="password">
+
+            <label for="comment">Comments</label>
+            <textarea name="comment" id="comment"></textarea><br>
+
+            <label for="country">Country: </label>
+            <select name="country" id="country" required>
+                <option value="">Выберите вашу страну</option>
+                <option value="ru">Россия</option>
+                <option value="us">США</option>
+                <option value="ca">Канада</option>
+            </select>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>
