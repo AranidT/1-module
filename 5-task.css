@@ -1,0 +1,23 @@
+p{
+    color: blue;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+#main{
+    color: red;
+}
+
+h3{
+    color: red;
+}
+
+#color{
+    color: aqua;
+}
+
+.color{
+    color:aquamarine;
+}
