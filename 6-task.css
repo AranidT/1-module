@@ -1,0 +1,45 @@
+/* изменяет цвет текста для заголовка 1 уровня */
+h1{
+    color:aqua;
+}
+
+/* выравнивает текст по центру для заголовка 2 уровня */
+h2{
+    text-align: center;
+}
+
+/* изменяет размер шрифта и жирность */
+p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#main{
+    font-size: 17px;
+}
+
+/* изменяет  цвет фона и фоновое изображение*/
+.box{
+   background-color: aquamarine; 
+   background-image: url('./котик.jpg');
+}
+
+/* в классе container добавляет внутренний и внешний отступ, также рамку для блока */
+.container{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid slateblue;
+}
+
+/* задаем ширину и высоту, также установливаем управления содержимое */
+#box{
+    width: 100px;
+    height: 200px;
+    overflow: scroll;
+}
+
+#box2{
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+}
