@@ -1,0 +1,23 @@
+.box{
+    font-size: 15px;
+    width: 20%;
+    /* height: 500px; */
+}
+
+.box1{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+.container1{
+   color: #32a852;
+   background-color: #98d4a8;
+}
+
+.container2{
+    color: rgb(145, 98, 186);
+    background-color: rgb(122, 49, 186, 0.4);
+}
