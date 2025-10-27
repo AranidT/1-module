@@ -1,0 +1,27 @@
+/* задание 2 */
+img{
+    display: block;
+}
+
+.style1{
+    display: inline;
+}
+
+/* задание 3 */
+
+.img{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    display: block;
+}
+
+.p{
+    margin: 15px;
+}
+
+a{
+    margin: 15px;
+    display: block;
+}
+
