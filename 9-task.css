@@ -1,0 +1,41 @@
+
+/* изменяется фон в кнопке при наведении*/
+.button:hover{
+    background-color: violet;
+}
+
+/* изменяется цвет границы при фокусировке */
+.input:focus{
+    border-color: aquamarine;
+}
+
+/* задаем стили для первого элемента списка */
+.item0:first-child{
+    font-weight: bold;
+}
+
+/* задаем стили для последнего элемента списка */
+.item0:last-child{
+    color: aquamarine;
+}
+
+/* при наведении изменяет цвет и убирает подчеркивание */
+.style1:hover{
+    color:blueviolet;
+    text-decoration-line: none;
+}
+
+/* в списке именно для нечетных элементов изменяет фон */
+.item:nth-child(odd){
+    background-color: azure;
+}
+
+/* изменяет цвет фона для первого элемента при наведении*/
+.style2:hover:first-child{
+    background-color: bisque;
+}
+
+/* изменяет цвет фона для последнего элемента при фокусировке */
+.style2:focus:last-child{
+    background-color: aqua;
+}
