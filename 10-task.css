@@ -1,0 +1,38 @@
+/* задание 1 используем position: static; в итоге ничего не меняется так как это его значение по умолчанию */
+/* div{
+    position: static;
+} */
+
+/* relative смещает относительно от места где он стоит */
+.position1{
+    position: relative;
+    top: 0;
+    right: 10px;
+    left: 5px;
+}
+
+/* в данном примере для контейнера был задан position: relative сделав его родительским 
+.link является дочерним */
+.position2{
+    position: relative;
+    height: 150px;
+}
+
+.link{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+/* position: fixed; закрепляет элемент в одной части страницы */
+.position3{
+    position: fixed;
+    bottom: 0;
+    right: 0
+}
+
+/* sticky работает как relative но так как мою страницу не прокрутить не ведет себя как fixed*/
+.position4{
+    position: sticky;
+    top: 0;
+}
