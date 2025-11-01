@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    background-color: rgba(25, 25, 25, 1);
+}
+
+header{
+    display: flex;
+    background-color: rgba(25, 25, 25, 1);
+    justify-content: space-between;
+    padding: 26px 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav a{
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 40px;
+}
+
+nav a:hover{
+    color: rgba(17, 141, 168, 1);
+}
+
+nav a:last-child{
+    margin-right: 20px;
+}
+
+.intro{
+    display: flex;
+    gap: 60px;
+    margin: 0 40px;
+}
+
+.intro p{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.intro span{
+    font-size: 75px;
+    text-decoration: underline rgba(17, 141, 168, 1);
+    text-underline-offset: 15px;
+}
+
+.inrtoduction{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.between{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px;
+}
+
+.title{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.button1{
+    background-color: rgba(17, 141, 168, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 0 15px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    border-radius: 15px;
+    height: 51px;
+}
+
+.frame{
+    display: flex;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 40px;
+    margin: 60px 50px;
+    border-radius: 32px;
+}
+
+.frame_img{
+    background-color: rgba(0, 0, 0, 1);
+    margin-right: 50px;
+}
+
+.into_frame{
+    background-color: rgba(0, 0, 0, 1);
+    overflow: hidden;
+}
+
+.frame_p{
+    color: rgba(255, 255, 255, 1);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 0 16px;
+    background-color: rgba(25, 25, 25, 1);
+    border-radius: 6px;
+}
+
+.frame_p2{
+    color: rgba(17, 141, 168, 1);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    background-color: rgba(0, 0, 0, 1);
+    margin-top: 47px;
+    margin-bottom: 17px;
+}
+
+.frame_title{
+    color: rgba(255, 255, 255, 1);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.frame_text{
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 1);
+    margin-top: 28px;
+    margin-bottom: 18px;
+}
+
+.frame_button{
+    background-color: rgba(17, 141, 168, 1);
+    border-radius: 6px;
+    height: 51px;
+    color: rgba(255, 255, 255, 1);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.part{
+    display: flex;
+    gap: 60px;
+    margin: 150px 50px;
+}
+
+.right{
+    width: 112px;
+    height: 112px;
+    margin-bottom: 20px;
+}
+
+.part p{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.part h2{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.authorization{
+    background-color: rgba(0, 0, 0, 1);
+    overflow: hidden;
+    display: flex;
+    gap: 200px;
+    justify-content: space-between;
+    padding: 60px;
+    margin: 50px;
+    border-radius: 32px;
+    position: relative;
+}
+
+.authorization_intro{
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+}
+
+.authorization p{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    color:rgba(17, 141, 168, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.authorization h3{
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 72px;
+    color:rgba(255, 255, 255, 1);
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.authorization input{
+    border: none;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    padding: 20px 26px;
+    border-radius: 6px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px;
+    width: 500px;
+}
+
+.authorization button{
+    width: 90px;
+    padding: 17px;
+    background-color: rgba(17, 141, 168, 1);
+    color: rgba(255, 255, 255, 0.7);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.stars{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin: 100px 50px;
+}
+
+.star{
+    width: 25%;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 32px;
+    overflow: hidden;
+}
+
+.img_star{
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+}
+
+.logo_star{
+    background-color: rgba(0, 0, 0, 1);
+    margin-right: 5px;
+}
+
+.star_text{
+    background-color: rgba(0, 0, 0, 1);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+    padding: 20px 0;
+}
+
+.star_autor{
+    background-color: rgba(0, 0, 0, 1);
+   font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px; 
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer{
+    display: flex;
+    margin: 100px 50px;
+}
+
+.footer_intro{
+    padding-right: 250px;
+}
+
+.icon_logo{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.footer_menu{
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+.footer_menu a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.icons{
+    margin-right: 17px;
+}
