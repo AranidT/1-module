@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 380px;
+    border: 1px solid rgba(242, 246, 250, 1);
+    border-radius: 10px;
+}
+
+.intro{
+    padding: 50px 44px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.name{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 143%;
+    color: rgba(46, 54, 62, 1);
+    margin-bottom: 12px;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: rgba(46, 54, 62, 1);
+    margin-bottom: 24px;
+}
+
+.price{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: rgba(67, 75, 83, 1);
+    margin-bottom: 14px;
+}
+
+.btn{
+    border: none;
+    background-color: rgba(254, 216, 76, 1);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    color: rgba(46, 54, 62, 1);
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+.cakes{
+    padding: 150px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+}
