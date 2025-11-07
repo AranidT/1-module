@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    padding: 20px 20px 30px 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    background-color: rgba(225, 237, 230, 1);
+    width: fit-content;
+}
+
+.author{
+    font-size: 18px;
+    line-height: 100%;
+    color: rgba(134, 146, 139, 1);
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.composition{
+    color: rgba(44, 45, 53, 1);
+    font-size: 30px;
+    line-height: 100%;
+    margin-bottom: 8px;
+}
+
+.materials{
+    color: rgba(44, 45, 53, 1);
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 100%;
+}
+
+.price{
+    color: rgba(89, 141, 102, 1);
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.btn{
+    border: none;
+    border: 1px solid rgba(89, 141, 102, 1);
+    padding: 21px 107px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    color: rgba(89, 141, 102, 1);
+    background-color: rgba(225, 237, 230, 1);
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-self: center;
+    margin: 50px 0;
+}
+
+@media (max-width: 1150px){
+    .cards{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    img{
+        width: 290px;
+        height: 422px;
+    }
+}
+
