@@ -1,0 +1,42 @@
+/* добавила шрифт через код в html */
+h1{
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* добавила через код в css */
+@import url('https://fonts.googleapis.com/css2?family=Lavishly+Yours&display=swap');
+h3{
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+ 
+/* локально */
+@font-face {
+    font-family: "MyFont";
+    src: url(./font/Fleur_De_Leah/FleurDeLeah-Regular.ttf);
+}
+
+p{
+    font-family: MyFont;
+}
+
+/* загрузила через adobe */
+
+h2{
+    font-family: "source-sans-3", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* загрузила шрифт через fontsquirrel.com */
+@font-face {
+    font-family: "Font";
+    src: url(./font/alex-brush/AlexBrush-Regular.ttf);
+}
+
+.adobe{
+    font-family: Font;
+}
