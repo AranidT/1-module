@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="viewport=device-width, initial-scale=1.0">
+        <style>
+            /* перемещает див в 90 градусов */
+            .box1{
+                width: 200px;
+                height: 200px;
+                background-color: aqua;
+                rotate: 90deg;
+            }
+
+            /* создаем анимацию которая уменьшает размер див */
+            .box2{
+                width: 200px;
+                height: 200px;
+                background-color: turquoise;
+                animation: pulse 5s infinite;
+            }
+
+            /* перемещает див */
+            .box3{
+                width: 200px;
+                height: 200px;
+                transform: translate(42px, 15px);
+                background-color: azure;
+            }
+
+            /* искажает элемент по 2 осям */
+            .box4{
+                width: 200px;
+                height: 200px;
+                transform: skew(15deg, 15deg);
+                background-color: antiquewhite;
+            }
+
+            @keyframes pulse{
+                0%{
+                    transform: scale(1);
+                }
+                50%{
+                    transform: scale(0.5);
+                }
+                100%{
+                    transform: scale(0);
+                }
+            }
+
+            /* при нажатии на дивку изменяет плавно фон */
+            .box5{
+                font-size: 2rem;
+                background-color: palegoldenrod;
+                transition: background-color 2s 500ms;
+            }
+            .box5:hover {
+                background-color: darkorange;
+            }
+
+            /* создала анимацию где вращение див и изменение цвета фона */
+            .box6{
+                width: 200px;
+                height: 200px;
+                animation: animated 10s;
+            }
+
+            @keyframes animated{
+                0%{
+                    rotate: 90deg;
+                    background-color: aquamarine;
+                }
+                50%{
+                    rotate: 180deg;
+                    background-color: rgb(100, 240, 194);
+                }
+                100%{
+                    rotate: 360deg;
+                    background-color: rgb(8, 250, 169);
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <!-- task 1 -->
+        <div class="box1">deseo</div>
+        <div class="box2">deseo</div>
+        <div class="box3">deseo</div>
+        <div class="box4">deseo</div>
+        <!-- task 2 -->
+        <div class="box5">diseo</div>
+        <!-- task 3 -->
+        <div class="box6">wooorldd</div>
+    </body>
+</html>
