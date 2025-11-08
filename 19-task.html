@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="viewport=device-width, initial-scale=1.0">
+        <style>
+            /* использовала тени для блока */
+            .box1{
+                width: 200px;
+                height: 200px;
+                box-shadow: 5px 10px 10px 10px rgba(224, 100, 212, 0.5);
+                background-color: #f2d0ec;
+            }
+            .box2{
+                width: 200px;
+                height: 200px;
+                /* box-shadow: 10px 10px rgba(170, 77, 206, 0.5); */
+                box-shadow: 60px -16px rgb(186, 64, 167);
+                background-color: #f3e2ef;
+            }
+
+            /* использовала тени для текста */
+            h1{
+                text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+            }
+            h2{
+                text-shadow: 10px 7px 5px rgba(216, 170, 211, 0.5);
+                color:rgb(186, 64, 167);
+            }
+
+            /* линейный градиент */
+            .linear{
+                width: 200px;
+                height: 200px;
+                background: linear-gradient(to left, #ac4bdd, #94138d, #68024f);
+            }
+            .linear2{
+                width: 200px;
+                height: 200px;
+                background: linear-gradient(90deg, blue, red);
+            }
+
+            /* радиальный градиент */
+            .radial{
+                width: 200px;
+                height: 200px;
+                background: radial-gradient(circle, red, yellow, blue);
+            }
+            .radial2{
+                width: 200px;
+                height: 200px;
+                background: radial-gradient(ellipse, blue, yellow);
+            }
+        </style>
+    </head>
+    <body>
+        <!-- 1-task -->
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <!-- 2-task -->
+         <h1>Helloo</h1>
+         <h2>Wooorld</h2>
+         <!-- 3-task -->
+        <div class="linear"></div>
+        <div class="linear2"></div>
+        <!-- 4-task -->
+        <div class="radial"></div>
+        <div class="radial2"></div>
+    </body>
+</html>
