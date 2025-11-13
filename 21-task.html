@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="viewport=device-width, initial-scale=1.0">
+        <style>
+            /* псевдоэлемент before работает такким образом, что он вставляет содержимое перед основным элементом */
+            .par1::before{
+                content: "Текст перед параграфом";
+                display: block;
+                color:rgb(222, 152, 48);
+                font-size: 14px;
+            }
+
+            .par2::before{
+                content: "Текст перед абзацом";
+                display: block;
+                color:rgb(206, 128, 26);
+                font-size: 14px;
+            }
+
+            /* псевдоэлемент after добавляет значения после основного элемента */
+            .title2::after{
+                content: ' \273E';
+            }
+
+            .title1::after{
+                content: ' \00A9';
+            }
+
+            .container{
+                width: 100px;
+                height: 100px;
+                background-color: aliceblue;
+                background-image: url(./img/img14/avatar.svg)
+            }
+
+            .container::before{
+                content: "";
+                border-top: 1px solid #fa8181;
+                display: block;
+            }
+
+            .container::after{
+                content: "";
+                border-bottom: 1px solid #fa8181;
+                display: block;
+                height: 100%;
+                box-shadow: 1px 1px 10px #f8a4a4;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- task 1 -->
+        <p class="par1">Повседневная практика показывает, что реализация намеченных плановых заданий требуют определения и уточнения новых предложений. Повседневная практика показывает, что рамки и место обучения кадров способствует подготовки и реализации форм развития. Задача организации, в особенности же рамки и место обучения кадров позволяет оценить значение направлений прогрессивного развития.</p>
+        <p class="par2">Значимость этих проблем настолько очевидна, что постоянный количественный рост и сфера нашей активности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Задача организации, в особенности же укрепление и развитие структуры способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач.</p>
+
+        <!-- task 2 -->
+        <h1 class="title1">Designed by AD</h1>
+        <h2 class="title2">Worldd</h2>
+
+        <!-- task 3 -->
+        <div class="container"></div>
+    </body>
+</html>
