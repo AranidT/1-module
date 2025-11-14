@@ -1,21 +1,24 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     width: fit-content;
 }
 
-.container{
+.container__item{
     width: 380px;
     border: 1px solid rgba(242, 246, 250, 1);
     border-radius: 10px;
 }
 
-.intro{
+.container__intro{
     padding: 50px 44px;
     font-family: "Montserrat", sans-serif;
 }
 
-.name{
+.container__intro-name{
     font-weight: 700;
     font-size: 24px;
     line-height: 143%;
@@ -23,7 +26,7 @@
     margin-bottom: 12px;
 }
 
-.description{
+.container__intro-description{
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -31,7 +34,7 @@
     margin-bottom: 24px;
 }
 
-.price{
+.container__intro-price{
     font-weight: 500;
     font-size: 24px;
     line-height: 150%;
@@ -39,7 +42,7 @@
     margin-bottom: 14px;
 }
 
-.btn{
+.container__intro--primary{
     border: none;
     background-color: rgba(254, 216, 76, 1);
     font-family: "Montserrat", sans-serif;
@@ -51,7 +54,7 @@
     border-radius: 8px;
 }
 
-.cakes{
+.container{
     padding: 150px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
