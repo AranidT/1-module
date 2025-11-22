@@ -68,3 +68,13 @@
 //     }
 // }
 // console.log(getFactorial(5))
+
+// через цикл for
+let number = Number(prompt('Введите цифру для возведения в факториал: ')) 
+let multiply = 1
+for (let i = 1; i < (number+1); i++){
+    // console.log(i)
+    multiply *= i;
+}
+console.log(multiply)
+
