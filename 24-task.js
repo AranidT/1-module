@@ -60,20 +60,15 @@
 // console.log(message)
 
 // task 6
-// let number1 = Number(prompt('Напишите первое число: '))
-// let number2 = Number(prompt('Напишите второе число: '))
+let number1 = Number(prompt('Напишите первое число: '))
+let number2 = Number(prompt('Напишите второе число: '))
 
 // Конструкция if/else
-// if (number1 === number2){
-//     console.log('Числа равны')
-// } else if (number1 > number2){
-//     console.log('Первое число больше')
-// } else if (number1 < number2){
-//     console.log('Второе число больше')
-// }
-
-// через тернарный оператор
-// console.log((number1 === number2)?'Числа равны':((number1 > number2)?'Первое число больше':'Второе число больше'))
+if (number1 === number2){
+    console.log('Числа равны')
+} else{
+    console.log((number1 > number2)?'Первое число больше':'Второе число больше')
+}
 
 // additional task
 // let month = prompt('Напишите месяц (от 1 до 12)')
