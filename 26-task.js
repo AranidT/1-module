@@ -56,13 +56,27 @@
 // console.log(calculator.sum)
 // console.log(calculator.multiply)
 
+// вариант с методами внутри объекта
+let calculator = {
+    a: 10,
+    b: 20,
+    sum(){
+        return this.a + this.b
+    },
+    multiply(){
+        return this.a * this.b
+    },
+}
+
+console.log(calculator.sum())
+console.log(calculator.multiply())
 
 // task 7 
-const car = {
-    brand: 'Lamborghini',
-    model: 'Aventador'
-}
-console.log(car)
-car.brand = 'Porshe'
-console.log(car)
+// const car = {
+//     brand: 'Lamborghini',
+//     model: 'Aventador'
+// }
+// console.log(car)
+// car.brand = 'Porshe'
+// console.log(car)
 // насколько правильно поняла, если мы изменим само название или внутренность константы то не получится, а если через значение то это возможно
